@@ -1,6 +1,6 @@
 ## BBPLOT
 
-このレポジトリは `bbplot` パッケージの関数がある。これらをいったんローカル環境にインストールすれば、BBCニュースのデータ版が使っているグラフィックスの様式を使うことができるだろう。
+このレポジトリは `bbplot` パッケージの関数がある。これらをいったんローカル環境にインストールすれば、BBCニュースのデータ班が使っているグラフィックスの様式を使うことができるだろう。
 
 ![Example of graphics created using the bbplot package](chart_examples/bbplot_example_plots.png)
 
