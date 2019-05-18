@@ -1,14 +1,13 @@
 ## BBPLOT
 
-This repo contains the functions of the `bbplot` package, which once installed locally, provides helpful functions for creating and exporting  graphics made in ggplot in the style used by the BBC News data team.
+このレポジトリは `bbplot` パッケージの関数がある。これらをいったんローカル環境にインストールすれば、BBCニュースのデータ版が使っているグラフィックスの様式を使うことができるだろう。
 
 ![Example of graphics created using the bbplot package](chart_examples/bbplot_example_plots.png)
 
 ## Installing bbplot
 
-`bbplot` is not on CRAN, so you will have to install it directly from Github using `devtools`. 
-
-If you do not have the `devtools` package installed, you will have to run the first line in the code below as well. 
+`bbplot` はCRANの管理下にない。`devtools` をつかって直接Githubからインストールする。
+もし `devtools` をインストールしていなければ、まず初めに次のコードの一行目を実行する。
 
 ```
 # install.packages('devtools')
