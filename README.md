@@ -1,12 +1,12 @@
 ## BBPLOT
 
-このレポジトリは `bbplot` パッケージの関数がある。これらをいったんローカル環境にインストールすれば、BBCニュースのデータ班が使っているグラフィックスの様式を使うことができるだろう。
+このレポジトリには `bbplot` パッケージの関数がある。これらをいったんローカル環境にインストールすれば、BBCニュースのデータ班が使っているグラフィックスの様式を使うことができるだろう。
 
 ![Example of graphics created using the bbplot package](chart_examples/bbplot_example_plots.png)
 
 ## Installing bbplot
 
-`bbplot` はCRANの管理下にない。`devtools` をつかって直接Githubからインストールする。
+`bbplot` はCRANの管理下にない。`devtools` を使って直接Githubからインストールする。
 もし `devtools` をインストールしていなければ、まず初めに次のコードの一行目を実行する。
 
 ```
@@ -14,11 +14,12 @@
 devtools::install_github('bbc/bbplot')
 ```
 
-## Using the functions
+## 関数を使う
 
-The package has two functions for plots: `bbc_style()` and `finalise_plot`.
+このパッケージには `bbc_style()` と`finalise_plot` の二つの関数がある。 
 
-Detailed examples on how to use the functions included within the `bbplot` package to produce graphics are included in the [R cookbook](https://bbc.github.io/rcookbook/), as well as a more general reference manual for working with `ggplot2`.
+これらの関数の使用例は `bbplot` パッケージか[R cookbook](https://bbc.github.io/rcookbook/)を参照すること。
+より一般的な使用例は`ggplot2`のマニュアルを参照すること。
 
 A basic explanation and summary here:
 
